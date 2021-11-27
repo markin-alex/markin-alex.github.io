@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style type="text/css">
+        html {
+            overflow-y: scroll;
+        }
+
+        div.publications ul li {
+            padding-bottom: 0.5em;
+        }
+    </style>
+
+    <title>Alexey Markin's personal webpage</title>
+</head>
+<body>
+
+<div class="container">
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Alexey Markin</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About me</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="publications.html">Publications</a>
+                </li>
+				<li class="nav-item">
+                    <a class="nav-link" href="software.html">Software</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+	
+	<!-- <div class="row mt-4 sticky-top">
+		<div class="col">
+			<ul class="nav nav-pills bg-light">
+			  <li class="nav-item">
+				<a class="nav-link" href="#selected">Selected publications</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#journal">Journal papers</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#conference">Conference papers</a>
+			  </li>
+			</ul>
+		</div>
+	</div> -->
+
+    <div class="row mt-4">
+        <div class="col">
+            <div class="card publications">
+                <div class="card-body">
+                    <h5 class="card-title">Selected publications</h5>
+					<a id="selected" style="position:absolute; top:-25px;"></a>
+                    <p class="card-text">
+                    <ul>
+						<li><b>Markin, A.</b>, Wagle, S., Anderson, T.K. and Eulenstein, O., 2021. 
+							<i>RF-Net 2: Fast Inference of Virus Reassortment and Hybridization Networks.</i>
+							Under review in Bioinformatics.
+							<br/>
+							<a href="https://www.biorxiv.org/content/10.1101/2021.05.05.442676v1.full.pdf" target="_blank">
+                                Full text <img src="images/pdf-icon.png" alt="(pdf)" width="16px" height="20px"
+                                               style="margin-left: 5px"/>
+                            </a>
+						</li>
+						<li><b>Markin, A.</b> and Eulenstein, O., 2021. 
+							<i>Quartet-Based Inference is Statistically Consistent Under the Unified Duplication-Loss-Coalescence Model.</i>
+							Bioinformatics.
+							<br/>
+							<a href="documents/papers/quartets-DLC-bioinf-author.pdf" target="_blank">
+                                Full text <img src="images/pdf-icon.png" alt="(pdf)" width="16px" height="20px"
+                                               style="margin-left: 5px"/>
+                            </a>
+						</li>
+                        <li><b>Markin, A.</b>, 2020.
+                            <i>On the Extremal Maximum Agreement Subtree Problem.</i>
+                            Descrete Applied Mathematics, Elsevier.
+                            <br/>
+                            Solving problem NC3 from Mike Steel's list of
+                            <a href="http://www.math.canterbury.ac.nz/~m.steel/Non_UC/files/research/conjectures_updated.pdf" target="_blank">
+                                phylogenetic challenges</a>.
+                            <br/>
+                            <a href="documents/papers/amarkin-extremal-MAST-published.pdf" target="_blank">
+                                Full text <img src="images/pdf-icon.png" alt="(pdf)" width="16px" height="20px"
+                                               style="margin-left: 5px"/>
+                            </a>
+                        </li>
+                        <!--<li><b>Markin, A.</b> and Eulenstein, O., 2018.
+                            <i>Cophenetic Median Trees.</i>
+                            IEEE/ACM Transaction on Computational Biology and Bioinformatics (invited paper).
+                            <br/>
+                            <a href="documents/papers/Cophenetic-median-trees.pdf" target="_blank">
+                                Full text <img src="images/pdf-icon.png" alt="(pdf)" width="16px" height="20px"
+                                               style="margin-left: 5px"/>
+                            </a>
+                        </li>-->
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row mt-4">
+        <div class="col">
+            <div class="card publications">
+                <div class="card-body">
+                    <h5 class="card-title">Journal papers</h5>
+					<a id="journal" style="position:absolute; top:-25px;"></a>
+                    <p class="card-text">
+                    <ul>
+						<li><b>Markin, A.</b>, Wagle, S., Anderson, T.K., and Eulenstein, O., 2021. 
+							<i>RF-Net 2: Fast Inference of Virus Reassortment and Hybridization Networks.</i>
+							Under review in Bioinformatics.
+							<br/>
+							<a href="https://www.biorxiv.org/content/10.1101/2021.05.05.442676v1.full.pdf" target="_blank">
+                                Full text <img src="images/pdf-icon.png" alt="(pdf)" width="16px" height="20px"
+                                               style="margin-left: 5px"/>
+                            </a>
+						</li>
+						<li>Paszek, J., <b>Markin, A.</b>, Gorecki, P., and Eulenstein, O., 2021
+							<i>Taming the Duplication-Loss-Coalescence Model with Integer Linear Programming.</i>
+							Jounral of Computational Biology.
+							<br/>
+							<a href="https://www.biorxiv.org/content/10.1101/2021.05.05.442676v1.full.pdf" target="_blank">
+                                Full text <img src="images/pdf-icon.png" alt="(pdf)" width="16px" height="20px"
+                                               style="margin-left: 5px"/>
+                            </a>
+						</li>
+						<li><b>Markin, A.</b> and Eulenstein, O., 2021
+							<i>Quartet-based inference is statistically consistent under the unified duplication-loss-coalescence model.</i>
+							Bioinformatics.
+							<br/>
+							<a href="documents/papers/quartets-DLC-bioinf-author.pdf" target="_blank">
+                                Full text <img src="images/pdf-icon.png" alt="(pdf)" width="16px" height="20px"
+                                               style="margin-left: 5px"/>
+                            </a>
+						</li>
+                        <li><b>Markin, A.</b>, 2020.
+                            <i>On the Extremal Maximum Agreement Subtree Problem.</i>
+                            Descrete Applied Mathematics, Elsevier.
+                            <!--<br/>-->
+                            <!--Solving problem NC3 from Mike Steel's list of-->
+                            <!--<a href="http://www.math.canterbury.ac.nz/~m.steel/Non_UC/files/research/conjectures_updated.pdf" target="_blank">-->
+                                <!--phylogenetic challenges</a>.-->
+                            <br/>
+                            <a href="https://arxiv.org/pdf/1812.06951.pdf" target="_blank">
+                                Full text <img src="images/pdf-icon.png" alt="(pdf)" width="16px" height="20px"
+                                               style="margin-left: 5px"/>
+                            </a>
+                        </li>
+						<li>Górecki, P., <b>Markin, A.</b> and Eulenstein, O., 2020.
+							<i>Exact median-tree inference for unrooted reconciliation costs.</i>
+							BMC Evolutionary Biology, 20(1), pp.1-15.
+							<br/>
+							<a href="documents/papers/unrooted-exact-DP-2020-published.pdf" target="_blank">
+                                Full text <img src="images/pdf-icon.png" alt="(pdf)" width="16px" height="20px"
+                                               style="margin-left: 5px"/>
+                            </a>
+						</li>
+                        <li><b>Markin, A.</b> and Eulenstein, O., 2018.
+                            <i>Cophenetic Median Trees.</i>
+                            IEEE/ACM Transaction on Computational Biology and Bioinformatics (invited paper).
+                            <br/>
+                            <!--TODO: update link-->
+                            <a href="documents/papers/Cophenetic-median-trees.pdf" target="_blank">
+                                Full text <img src="images/pdf-icon.png" alt="(pdf)" width="16px" height="20px"
+                                               style="margin-left: 5px"/>
+                            </a>
+                        </li>
+                        <li><b>Markin, A.</b> and Eulenstein, O, 2017.
+                            <i>Efficient Local Search for Euclidean Path-Difference Median Trees.</i>
+                            Accepted in IEEE/ACM Transaction on Computational Biology and Bioinformatics (invited
+                            paper).
+							</br>
+                            <!--TODO: update link-->
+                            <a href="documents/papers/Euclidean-PD-MT.pdf" target="_blank">
+                                Full text <img src="images/pdf-icon.png" alt="(pdf)" width="16px" height="20px"
+                                               style="margin-left: 5px"/>
+                            </a>
+                        </li>
+                        <li><b>Markin, A.</b> and Eulenstein, O., 2017.
+                            <i>Computing Manhattan Path-Difference Median Trees: a Practical Local Search Approach.</i>
+                            IEEE/ACM Transaction on Computational Biology and Bioinformatics (invited paper).
+                            <br/>
+                            <a href="documents/papers/Computing-MMT-TCBB.pdf" target="_blank">
+                                Full text <img src="images/pdf-icon.png" alt="(pdf)" width="16px" height="20px"
+                                               style="margin-left: 5px"/>
+                            </a>
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col">
+            <div class="card publications">
+                <div class="card-body">
+                    <h5 class="card-title">Conference papers</h5>
+					<a id="conference" style="position:absolute; top:-25px;"></a>
+                    <p class="card-text">
+                    <ul>
+						<li>Nguyen, HN. <b>Markin, A.</b>, Friedberg, I., and Eulenstein, O., 2020.
+							<i>Finding orthologous gene blocks in bacteria: the computational hardness of the problem and novel methods to address it.</i>
+							Bioinformatics (ECCB'20 proceedings).
+						</li>
+						<li>Ansarifar, J., <b>Markin, A.</b>, Górecki, P. and Eulenstein, O., 2020.
+							<i>Integer Linear Programming Formulation for the Unified Duplication-Loss-Coalescence Model.</i>
+							In International Symposium on Bioinformatics Research and Applications (pp. 229-242). Springer, Cham.
+							<br/>
+							<a href="documents/papers/ansarifar-DLC-ILP-ISBRA-2020.pdf" target="_blank">
+                                Full text <img src="images/pdf-icon.png" alt="(pdf)" width="16px" height="20px"
+                                               style="margin-left: 5px"/>
+							</a>
+						</li>
+						<li><b>Markin, A.</b> and Eulenstein, O., 2019. 
+							<i>Consensus Clusters in Robinson-Foulds Reticulation Networks.</i>
+							Workshop on Algorithms in Bioinformatics (WABI'2019) proceedings.
+							<br/>
+							<a href="documents/papers/amarkin-consensus-in-RF-Net-WABI-2019.pdf" target="_blank">
+                                Full text <img src="images/pdf-icon.png" alt="(pdf)" width="16px" height="20px"
+                                               style="margin-left: 5px"/>
+                            </a>
+						</li>
+						<li><b>Markin, A.</b>, Anderson, T.K., Vadali, V.S.K.T. and Eulenstein, O., 2019. 
+							<i>Robinson-Foulds Reticulation Networks.</i>
+							ACM-BCB'2019 proceedings.
+							<br/>
+							<a href="https://www.biorxiv.org/content/10.1101/642793v1" target="_blank">
+                                Full text <img src="images/pdf-icon.png" alt="(pdf)" width="16px" height="20px"
+                                               style="margin-left: 5px"/>
+                            </a>
+						</li>
+						<li>Górecki, P., <b>Markin, A.</b> and Eulenstein, O., 2019. 
+							<i>Feasibility Algorithms for the Duplication-Loss Cost.</i>
+							In International Computing and Combinatorics Conference (COCOON'2019), pp. 206-218. Springer, Cham.
+						</li>
+						<li><b>Markin, A.</b>, Vadali, V.S.K.T. and Eulenstein, O., 2018. 
+							<i>Solving the Gene Duplication Feasibility Problem in Linear Time.</i>
+							In International Computing and Combinatorics Conference (COCOON'2018), pp. 378-390. Springer, Cham.
+						</li>
+						<li>Górecki, P., <b>Markin, A.</b> and Eulenstein, O., 2018. 
+							<i>Cophenetic Distances: A Near-Linear Time Algorithmic Framework.</i>
+							In International Computing and Combinatorics Conference (COCOON'2018), pp. 168-179. Springer, Cham.
+						</li>
+                        <li><b>Markin, A.</b> and Eulenstein, O., 2017.
+                            <i>Cophenetic Median Trees Under the Manhattan Distance.</i>
+                            ACM-BCB'2017 proceedings.
+                            <br/>
+                            <a href="documents/papers/Manhattan-cophenetic-acm.pdf" target="_blank">
+                                Full text <img src="images/pdf-icon.png" alt="(pdf)" width="16px" height="20px"
+                                               style="margin-left: 5px"/>
+                            </a>
+                        </li>
+                        <li>Gorecki, P., <b>Markin, A.</b> Mykowiecka, A., Paszek, J., and Eulenstein, O., 2017.
+                            <i>Phylogenetic Tree Reconciliation: Mean Values for Fixed Gene Trees.</i>
+                            In International Symposium on Bioinformatics Research and Applications, pp. 234-245.
+                            Springer, Cham.
+                            <br/>
+                            <a href="documents/papers/meandls.pdf" target="_blank">
+                                Full text <img src="images/pdf-icon.png" alt="(pdf)" width="16px" height="20px"
+                                               style="margin-left: 5px"/>
+                            </a>
+                        </li>
+                        <li><b>Markin, A.</b> and Eulenstein, O., 2016.
+                            <i>Manhattan Path-Difference Median Trees.</i>
+                            ACM-BCB'2016 proceedings.
+                            <br/>
+                            <a href="documents/papers/Manhattan-pdd-acm.pdf" target="_blank">
+                                Full text <img src="images/pdf-icon.png" alt="(pdf)" width="16px" height="20px"
+                                               style="margin-left: 5px"/>
+                            </a>
+                        </li>
+                        <li><b>Markin, A.</b> and Eulenstein, O., 2016.
+                            <i>Path-Difference Median Trees.</i>
+                            Bioinformatics Research and Applications: 12th International Symposium, ISBRA 2016, Minsk,
+                            Belarus,
+                            June 5-8, 2016. Springer International Publishing, Cham.
+                            <br/>
+                            <a href="documents/papers/Path-Difference%20Median%20Trees.pdf" target="_blank">
+                                Full text <img src="images/pdf-icon.png" alt="(pdf)" width="16px" height="20px"
+                                               style="margin-left: 5px"/>
+                            </a>
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery, Popper.js, Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+</body>
+</html>
